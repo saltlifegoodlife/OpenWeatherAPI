@@ -1,0 +1,36 @@
+#div-current,
+#saved-div {
+  display: flex;
+}
+#saved-div {
+  flex-direction: column;
+}
+
+#div-current p,
+#saved-div p {
+  display: flex;
+  align-items: center;
+}
+
+.savedArea {
+  margin-right: 7px;
+}
+
+#currentTemp,
+.savedAreaP {
+  font-size: 28px;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+#select {
+  display: block;
+  width: 49%;
+}
+
+#select-label {
+  position: inherit;
+  top: -70px;
+}
